@@ -17,13 +17,13 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", quantidade=" + quantidade +
-                ", preco=" + preco +
-                ", categoria='" + categoria + '\'' +
-                '}';
+        return "Produto[" +
+                "\nid=" + id +
+                ", \nnome='" + nome + '\'' +
+                ", \nquantidade=" + quantidade +
+                ", \npreco=" + preco +
+                ", \ncategoria='" + categoria + '\'' +
+                ']';
     }
 
     public static class ProdutoBuilder{

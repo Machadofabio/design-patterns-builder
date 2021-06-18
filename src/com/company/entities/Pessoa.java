@@ -24,14 +24,14 @@ public class Pessoa {
     @Override
     public String toString() {
         return "Pessoa[" +
-                "nome='" + nome + '\'' +
-                ", sobrenome='" + sobrenome + '\'' +
-                ", idade=" + idade +
-                ", rua='" + rua + '\'' +
-                ", numeroCasa=" + numeroCasa +
-                ", bairro='" + bairro + '\'' +
-                ", cidade='" + cidade + '\'' +
-                ", telefone='" + telefone + '\'' +
+                "\nnome='" + nome + '\'' +
+                ", \nsobrenome='" + sobrenome + '\'' +
+                ", \nidade=" + idade +
+                ", \nrua='" + rua + '\'' +
+                ", \nnumeroCasa=" + numeroCasa +
+                ", \nbairro='" + bairro + '\'' +
+                ", \ncidade='" + cidade + '\'' +
+                ", \ntelefone='" + telefone + '\'' +
                 ']';
     }
 
